@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Write a review
+        </title>
+    </head>
+    <body>
+        <h1>
+            Write a review
+        </h1>
+        <div class = "sign-up">
+            <br/>Book name:<br/> 
+            <input type="text" id="book_name">
+            <br/>
+            <br/>book genre:<br/>
+            <input type="text" id="book_genre">
+            <br/>
+            <br/>Review:<br/>
+            <textarea id="review" rows="5" cols="100"></textarea>
+            <br/><br/>
+            <input type="button" value="Post" id="post_button">
+        </div> 
+        <br/><br/>
+         <script type="text/javascript" src="/ui/review.js">
+        </script>
+        <button onclick="goBack()">Go Back</button>
+        <script>
+        function goBack() {
+            window.history.back();
+        }
+        </script>
+    </body>
+</html>
