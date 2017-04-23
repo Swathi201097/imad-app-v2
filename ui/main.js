@@ -1,6 +1,6 @@
 console.log('Loaded!');
-var set=0;
-if(set===0){
+var set;
+if(set!==0){
     alert('Click on the bookworm to see it crawl');
     set=1;
 }
