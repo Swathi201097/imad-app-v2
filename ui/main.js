@@ -1,6 +1,9 @@
 console.log('Loaded!');
-alert('Click on the bookworm to see it crawl');
-
+var set=0;
+if(set===0){
+    alert('Click on the bookworm to see it crawl');
+    set=1;
+}
 var login=document.getElementById('login_button');
 
 login.onclick = function(){
